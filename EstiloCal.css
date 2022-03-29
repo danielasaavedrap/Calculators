@@ -77,15 +77,15 @@
   
     padding: 40px 32px 40px 32px;
   }
-  .cuadrado{
+  .uno{
       background-color: var(--azul1);
       box-shadow: inset 12px 4px 40px var(--azulOscuro1);
   }
-  .triangulo{
+  .dos{
     background-color: var(--azul2);
     box-shadow: inset 12px 4px 40px var(--azulOscuro2);
 }
-.circulo{
+.tres{
     background-color: var(--azul3);
     box-shadow: inset 12px 4px 40px var(--azulOscuro3);
 }

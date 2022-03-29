@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./EstiloGeo.css" />
+    <link rel="stylesheet" href="./EstiloCal.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,13 +27,13 @@
               alt="Matematicas"
               class="iconos"
           /></a>
-          <a href=""
+          <a href="./Calculadora_Geometria.html"
             ><img
               src="./imagenes/icono geometria.svg"
               alt="geometria"
               class="iconos"
           /></a>
-          <a href=""
+          <a href="./Calculadora_Est.html"
             ><img
               src="./imagenes/icono estadistica.svg"
               alt="estadistica"
@@ -47,11 +47,11 @@
           /></a>
         </div>
       </header>
-      <div class="seccion cuadrado">
-        <h3 class="subtitulo">Calculo</h3>
+      <div class="seccion uno">
+        <h3 class="subtitulo">Cálculo</h3>
         <h1 class="titulo">Cuadrado</h1>
         <p class="subtexto">
-          ¡Vamos a calcular el area, perimetro y volumen de un Cuadrado!
+          ¡Vamos a calcular el área, perímetro y volumen de un Cuadrado!
         </p>
         <p class="texto">
           Ingresa las siguientes medidas del cuadrado y presiona el boton
@@ -66,26 +66,27 @@
               type="button"
               onclick="calPeriCuadrado()"
             >
-              Calcular el perimetro
+              Calcular el perímetro
             </button>
             <button
               class="boton cuad"
               type="button"
               onclick="calAreaCuadrado()"
             >
-              Calcular el Area
+              Calcular el área
             </button>
             <button class="boton cuad" type="button" onclick="calVolCuadrado()">
               Calcular el Volumen
             </button>
           </div>
         </form>
+        <p id="resultCuadr" class="subtitulo"></p>
       </div>
-      <div class="seccion triangulo">
-        <h3 class="subtitulo">Calculo</h3>
+      <div class="seccion dos">
+        <h3 class="subtitulo">Cálculo</h3>
         <h1 class="titulo">Triangulo</h1>
         <p class="subtexto">
-          ¡Vamos a calcular el area, perimetro y volumen de un triangulo!
+          ¡Vamos a calcular el área, perímetro y volumen de un triangulo!
         </p>
         <p class="texto">
           Ingresa las siguientes medidas del triangulo y presiona el boton
@@ -108,29 +109,30 @@
               <input type="number" id="baseTria" />
             </div>
             <div class="labeltr">
-              <label for="anchoTria" class="texto">Ancho (opcional):</label>
+              <label for="anchoTria" class="texto">Ancho del triangulo:</label>
               <input type="number" id="anchoTria" />
             </div>
           </div>
 
           <div class="botones">
             <button class="boton tria" type="button" onclick="calPeriTria()">
-              Calcular el perimetro
+              Calcular el perímetro
             </button>
             <button class="boton tria" type="button" onclick="calAreaTria()">
-              Calcular el Area
+              Calcular el área
             </button>
             <button class="boton tria" type="button" onclick="calVolTria()">
               Calcular el Volumen
             </button>
           </div>
         </form>
+        <p id="resultTria" class="subtitulo"></p>
       </div>
-      <div class="seccion circulo">
-        <h3 class="subtitulo">Calculo</h3>
+      <div class="seccion tres">
+        <h3 class="subtitulo">Cálculo</h3>
         <h1 class="titulo">Circulo</h1>
         <p class="subtexto">
-            ¡Vamos a calcular el area, perimetro y volumen de un circulo!
+            ¡Vamos a calcular el área, perímetro y volumen de un circulo!
           </p>
           <p class="texto">
             Ingresa las siguientes medidas del circulo y presiona el boton
@@ -145,21 +147,23 @@
                 type="button"
                 onclick="calPeriCir()"
               >
-                Calcular el perimetro
+                Calcular el perímetro
               </button>
               <button
                 class="boton cir"
                 type="button"
                 onclick="calAreaCir()"
               >
-                Calcular el Area
+                Calcular el área
               </button>
               <button class="boton cir" type="button" onclick="calVolCir()">
                 Calcular el Volumen
               </button>
             </div>
+          </form>
+        <p id="resultCir" class="subtitulo"></p>
       </div>
     </div>
-    <script src="./Figuras.js"></script>
+    <script src="./FigurasGeometria.js"></script>
   </body>
 </html>
