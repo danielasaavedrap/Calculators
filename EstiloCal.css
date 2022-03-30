@@ -93,6 +93,7 @@
     font-size: var(--lg);
     font-weight: 600;
     color: var(--blanco);
+    text-align: center;
   }
 .subtitulo{
     font-size: var(--md);
@@ -100,6 +101,7 @@
     color: var(--blanco);
     text-align: center;
 }
+
 .subtexto{
     font-size: var(--sm);
     color: var(--blanco);
@@ -139,14 +141,18 @@
     box-shadow: 4px 2px 20px var(--blanco);
     cursor: pointer;
   }
-  .cuad{
+  .unoo{
     background-color: var(--azulOscuro1);
   }
-  .tria{
+  .doss{
       background-color: var(--azulOscuro2);
   }
-  .cir{
+  .trees{
       background-color: var(--azulOscuro3);
+  }
+  .peque{
+    height: 62px;
+    padding: 0 15px;
   }
   .ladostriang{
     display: flex;
