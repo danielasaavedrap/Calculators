@@ -1,6 +1,6 @@
 # Math calculators
 
-##About the project
+## About the project
 Web page created with HTML, CSS and JAVASCRIPT with mathematical, geometric, algebraic, statistical and measurement calculator
 
 ## Technologies
@@ -12,6 +12,8 @@ Web page created with HTML, CSS and JAVASCRIPT with mathematical, geometric, alg
 * Node.js
 
 ## Considerations
+*  In this project we can visualize the following calculators: geometric calculator and statistical calculator
+*  The following calculators are under construction:  mathematical, algebraic and measurement calculator
 *  The graphic resources were provided by Freepick
 
 ## See the page
