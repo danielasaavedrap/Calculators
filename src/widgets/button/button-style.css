@@ -1,0 +1,78 @@
+:root {
+  --white: #ffffff;
+  --grey: #bad0db;
+  --secondGreen: #33888f;
+  --middleBlue: #276684;
+  --darkestBlue: #3d4d6f;
+  --darkPurple: #51327b;
+  --darkPink: #78497b;
+}
+
+.btn {
+  margin: 5px;
+  font-weight: 400;
+  border-radius: 12px;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  max-width: 400px;
+}
+.large {
+  font-size: 20px;
+  padding: 16px 45px;
+}
+.medium {
+  font-size: 16px;
+  padding: 16px 25px;
+}
+.small {
+  font-size: 14px;
+  padding: 12px 20px;
+}
+.btn:hover {
+  box-shadow: 4px 2px 20px var(--white);
+}
+.btn:disabled {
+  box-shadow: none;
+  background-color: var(--grey);
+  cursor: default;
+}
+.btn-01 {
+  background-color: var(--secondGreen);
+}
+
+.btn-02 {
+  background-color: var(--middleBlue);
+}
+
+.btn-03 {
+  background-color: var(--darkestBlue);
+}
+
+.btn-04 {
+  background-color: var(--darkPurple);
+}
+
+.btn-05 {
+  background-color: var(--darkPink);
+}
+
+.btn-01:disabled {
+  color: var(--secondGreen);
+}
+
+.btn-02:disabled {
+  color: var(--middleBlue);
+}
+
+.btn-03:disabled {
+  color: var(--darkestBlue);
+}
+
+.btn-04:disabled {
+  color: var(--darkPurple);
+}
+
+.btn-05:disabled {
+  color: var(--darkPink);
+}

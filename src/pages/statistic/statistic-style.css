@@ -1,0 +1,34 @@
+:root {
+  --white: #ffffff;
+  --grey: #bad0db;
+  --darkGrey: #7c9ba8;
+  --green: #4aa6be;
+  --darkGreen: #33888f;
+  --lightBlue: #32a2d4;
+  --middleBlue: #276684;
+  --darkBlue: #5772b0;
+  --darkestBlue: #3d4d6f;
+  --purple: #76599a;
+  --darkPurple: #51327b;
+  --pink: #a75e9b;
+  --darkPink: #78497b;
+  --darkBlueGreen: #017179;
+
+  --lg: 60px;
+  --md: 35px;
+  --sm: 20px;
+  --small: 16px;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: row;
+}
+.statisticSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 28vw;
+}

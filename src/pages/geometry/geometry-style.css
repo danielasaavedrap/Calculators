@@ -1,0 +1,76 @@
+:root {
+  --white: #ffffff;
+  --grey: #bad0db;
+  --darkGrey: #7c9ba8;
+  --green: #4aa6be;
+  --darkGreen: #33888f;
+  --lightBlue: #32a2d4;
+  --middleBlue: #276684;
+  --darkBlue: #5772b0;
+  --darkestBlue: #3d4d6f;
+  --purple: #76599a;
+  --darkPurple: #51327b;
+  --pink: #a75e9b;
+  --darkPink: #78497b;
+  --darkBlueGreen: #017179;
+
+  --lg: 60px;
+  --md: 35px;
+  --sm: 20px;
+  --small: 16px;
+}
+
+.geometry {
+  display: flex;
+  flex-direction: row;
+}
+
+.geometrySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 28vw;
+}
+
+.subtitle {
+  font-size: var(--sm);
+  color: var(--white);
+  text-align: center;
+  font-weight: 400;
+  padding: 0px 6vw;
+}
+
+.sec-01 {
+  background-color: var(--green);
+  box-shadow: inset 12px 4px 40px var(--darkGreen);
+}
+
+.sec-02 {
+  background-color: var(--lightBlue);
+  box-shadow: inset 12px 4px 40px var(--middleBlue);
+}
+
+.sec-03 {
+  background-color: var(--darkBlue);
+  box-shadow: inset 12px 4px 40px var(--darkestBlue);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  margin: 1vh 0 ;
+  padding: 10px ;
+  color: var(--darkBlueGreen);
+  font-size: var(--small);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px 0 35px 0;
+}

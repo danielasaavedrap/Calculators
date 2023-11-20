@@ -1,0 +1,15 @@
+:root {
+  --purple: #76599a;
+  --darkPurple: #51327b;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; 
+  background-color: var(--purple);
+  box-shadow: inset 12px 4px 40px var(--darkPurple);
+  height: 80vh;
+  width: 85vw;
+}

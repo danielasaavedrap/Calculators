@@ -1,0 +1,82 @@
+:root {
+  --white: #ffffff;
+  --grey: #bad0db;
+  --darkGrey: #7c9ba8;
+  --green: #4aa6be;
+  --darkGreen: #33888f;
+  --lightBlue: #32a2d4;
+  --middleBlue: #276684;
+  --darkBlue: #5772b0;
+  --darkestBlue: #3d4d6f;
+  --purple: #76599a;
+  --darkPurple: #51327b;
+  --pink: #a75e9b;
+  --darkPink: #78497b;
+
+  --lg: 60px;
+  --md: 35px;
+  --sm: 20px;
+}
+
+.index {
+  display: flex; 
+  flex-direction: row;
+}
+
+.section {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 17vw;
+}
+
+.number {
+  font-size: var(--lg);
+  font-weight: 600;
+  color: var(--white);
+}
+
+.title {
+  font-size: var(--md);
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+}
+
+.descriptionImage {
+  width: 250px;
+}
+
+.text {
+  font-size: var(--sm);
+  color: var(--white);
+  text-align: center;
+  font-weight: 300;
+  padding: 0 15px;
+}
+
+.basic {
+  background-color: var(--green);
+  box-shadow: inset 12px 4px 40px var(--darkGreen);
+}
+
+.geometry {
+  background-color: var(--lightBlue);
+  box-shadow: inset 12px 4px 40px var(--middleBlue);
+}
+
+.algebra {
+  background-color: var(--darkBlue);
+  box-shadow: inset 12px 4px 40px var(--darkestBlue);
+}
+.statistic {
+  background-color: var(--purple);
+  box-shadow: inset 12px 4px 40px var(--darkPurple);
+}
+.metrics {
+  background-color: var(--pink);
+  box-shadow: inset 12px 4px 40px var(--darkPink);
+  box-shadow: 12px 4px 40px var(--darkGrey);
+}

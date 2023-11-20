@@ -1,0 +1,15 @@
+:root {
+  --darkBlue: #5772b0;
+  --darkestBlue: #3d4d6f;
+}
+
+.pageNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; 
+  background-color: var(--darkBlue);
+  box-shadow: inset 12px 4px 40px var(--darkestBlue);
+  height: 80vh;
+  width: 85vw;
+}
