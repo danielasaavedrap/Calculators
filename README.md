@@ -16,4 +16,4 @@ Welcome to Math Genius, a powerful web application built with React, TypeScript,
 *  The graphic resources were provided by [Freepik](https://www.freepik.com/)
 
 ## See the page 
-[Click here](https://calculadoras-matematicas.netlify.app) to see the page working
+[Click here](https://mathgenius-daniela.netlify.app/) to see the page working
